@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files</title>
+    <!-- Fontawsome css file -->
+    <link rel="stylesheet" href="assets/CSS/all.min.css">
+    <!-- Framework css file -->
+    <link rel="stylesheet" href="assets/CSS/framework.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/CSS/style.css"> <!-- CSS File -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <!-- Normalization -->
+    <link rel="stylesheet" href="assets/CSS/normalize.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600;800&family=Poppins:wght@400;600;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="dashboard d-flex ">
+        <!-- Start Sidebar -->
+        <aside class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative text-center mt-0">John Doe</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex align-center font-14 text-dark p-10 border-5" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="">Dashboard</span></a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center font-14 text-dark p-10 border-5" href="settings.html">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Settings</span></a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center font-14 text-dark p-10 border-5" href="profiles.html">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Profiles</span></a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center font-14 text-dark p-10 border-5" href="projects.html">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Projects</span></a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center font-14 text-dark p-10 border-5" href="courses.html">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Courses</span></a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center font-14 text-dark p-10 border-5" href="friends.html">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <span>Friends</span></a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center font-14 text-dark p-10 border-5" href="files.html">
+                        <i class="fa-regular fa-file"></i>
+                        <span>Files</span></a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center font-14 text-dark p-10 border-5" href="plans.html">
+                        <i class="fa-regular fa-folder-closed"></i>
+                        <span>Plans</span></a>
+                </li>
+            </ul>
+        </aside>
+        <!-- End Sidebar -->
+        <!-- Start Content -->
+        <main class="content w-full">
+            <!-- Start Header -->
+            <div class="header bg-white p-15 flex-b">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Search..." />
+                </div>
+                <div class="icon d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-solid fa-bell fa-lg"></i>
+                    </span>
+                    <img src="assets/Images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- End Header -->
+            <!-- Start Main Content -->
+            <h1 class="p-relative">Files</h1>
+            <div class="files-page m-20  gap-20 d-flex">
+                <div class="files-stats bg-white rad-10 p-20">
+                    <h2 class="mt-0 mb-15 text-center-mobile">Files Statistics</h2>
+
+                    <div class="d-flex align-center border-eee p-10 font-13 mb-15 rad-6">
+                        <i class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon"></i>
+                        <div class="info">
+                            <span>PDF Files</span>
+                            <span class="c-gray font-13 d-block mt-5">130</span>
+                        </div>
+                        <div class="size c-gray">6.5GB</div>
+                    </div>
+                    <div class="d-flex align-center border-eee p-10 font-13 mb-15 rad-6">
+                        <i class="fa-regular fa-images fa-lg green center-flex c-green icon"></i>
+                        <div class="info">
+                            <span>Images</span>
+                            <span class="c-gray font-13 d-block mt-5">115 Files</span>
+                        </div>
+                        <div class="size c-gray">3.5GB</div>
+                    </div>
+                    <div class="d-flex align-center border-eee p-10 font-13 mb-15 rad-6">
+                        <i class="fa-regular fa-file-word fa-lg red center-flex c-red icon"></i>
+                        <div class="info">
+                            <span>ًWord Files</span>
+                            <span class="c-gray font-13 d-block mt-5">110 Files</span>
+                        </div>
+                        <div class="size c-gray">3.2GB</div>
+                    </div>
+                    <div class="d-flex align-center border-eee p-10 font-13 mb-15 rad-6">
+                        <i class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon"></i>
+                        <div class="info">
+                            <span>CSV Files</span>
+                            <span class="c-gray font-13 d-block mt-5">99 Files</span>
+                        </div>
+                        <div class="size c-gray">2.9GB</div>
+                    </div>
+                    <a class="upload bg-blue c-white font-13 rad-6 d-block w-fit" href="#">
+                        <i class="fa-solid fa-angles-up mr-10"></i>
+                        Upload</a>
+                </div>
+                <div class="files-content d-grid gap-20">
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/pdf.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.pdf</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">20/06/2020</span>
+                            <span class="c-gray font-13">5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/avi.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.avi</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">12.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/eps.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.eps</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/psd.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.psd</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">12.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/dll.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.dll</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">2.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/png.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.png</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">1.1MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/pdf.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.pdf</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">20/06/2020</span>
+                            <span class="c-gray font-13">5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/avi.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.avi</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">12.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/eps.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.eps</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/pdf.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.pdf</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">20/06/2020</span>
+                            <span class="c-gray font-13">5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/avi.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.avi</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">12.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/eps.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.eps</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/eps.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.eps</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/psd.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.psd</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">12.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/dll.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.dll</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">2.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/png.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.png</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">1.1MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/eps.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.eps</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/psd.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.psd</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">12.7MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/dll.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.dll</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">2.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fa-solid fa-download c-gray p-absolute"></i>
+                        <div class="text-center icon">
+                            <img src="assets/Images/png.svg" alt="#">
+                        </div>
+                        <div class="text-center mb-15 font-14">my-file.png</div>
+                        <p class="c-gray font-13">John Doe</p>
+                        <div class="info flex-b d-flex">
+                            <span class="c-gray font-13">16/5/2021</span>
+                            <span class="c-gray font-13">1.1MB</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+        <!-- End Content -->
+    </section>
+</body>
+
+</html>
